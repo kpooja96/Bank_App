@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+
+<bean id = "organization" class="com.capgemini.spring.model.Organization">
+<constructor-arg index="0" value="1" type="int"></constructor-arg>  
+<constructor-arg index="1" value="Samsung" type="String"></constructor-arg>
+<constructor-arg index="2" value="2000" type="double"></constructor-arg> 
+<constructor-arg index="3" ref="address"></constructor-arg>  
+</bean>
+<bean id= "address" class="com.capgemini.spring.model.Address">
+<constructor-arg index="0" value="Pune"></constructor-arg>  
+<constructor-arg index="1" value="Maharshtra"></constructor-arg>
+
+</bean>
+</beans>

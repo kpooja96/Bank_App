@@ -1,0 +1,17 @@
+Aspect spring/bin
+Aspect spring/libs
+
+BankApp_datasource/bin
+BankApp_datasource/libs
+
+BankApp_Jdbc_xml_rmap/bin
+BankApp_Jdbc_xml_rmap/libs
+
+BankApp_template/bin
+BankApp_template/libs
+
+BankAppJdbc/libs
+
+BankAppJdbc_Rowmap/bin
+BankAppJdbc_Rowmap/libs
+
